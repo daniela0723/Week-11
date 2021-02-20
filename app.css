@@ -1,0 +1,83 @@
+body {
+  background-color: #0a0908;
+  font-family: "Press Start 2P", cursive;
+}
+
+h1 {
+  color: #f2f4f3;
+  text-align: center;
+  padding-top: 30px;
+}
+
+#board {
+  width: 70%;
+  padding: 50px auto;
+  border-radius: 10px;
+  display: block;
+}
+
+#row {
+  padding-left: 65px;
+  align-content: center;
+}
+
+#reset {
+  background-color: #2a2813;
+  border: 0;
+  color: #f2f4f2;
+  text-transform: uppercase;
+  border-radius: 5px;
+  width: fit-content;
+  padding: 15px;
+  text-align: center;
+  float: right;
+}
+
+.cell {
+  height: 150px;
+  width: 100px;
+  margin: 10px;
+  font-size: 55px;
+  color: #f2f4f2;
+  text-align: center;
+  background: linear-gradient(#0f0e07, #2a2813, #22333b);
+  border-radius: 5px;
+  padding-top: 30px;
+}
+
+.cell:hover {
+  cursor: pointer;
+}
+
+#reset:hover {
+  cursor: pointer;
+  background-color: #a9927d;
+}
+
+#player {
+  margin-top: 30px;
+  color: #bdb76b;
+  font-size: 26px;
+  text-align: center;
+}
+
+#winner {
+  color: khaki;
+  text-align: center;
+  background: linear-gradient(#2a2813, #605c2b, #b7b05d, #605c2b, #2a2813);
+  border-radius: 5px;
+  padding: 30px 5px;
+  margin: 10px auto;
+}
+
+.hide {
+  display: none;
+}
+
+.o {
+  color: #f2f4f3;
+}
+
+.x {
+  color: #f2f4f3;
+}
